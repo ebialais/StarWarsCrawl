@@ -22,16 +22,21 @@ body {
 }
 
 .logo { 
-    position : relative;
-    top: -100px;
-    text-align: center;
-    font-family: 'Londrina Shadow', cursive;
-    font-size: 3em;
-    color: #F2E812; 
-    opacity: 0;
-    z-index: 3;
+    position : absolute;
+    top: 50vh;
+    transform: translateY(-50%);
+    width: 100vw;
 
-    transform-origin: 50% 100%;
+
+    z-index: 3;
+}
+
+img{
+    height: 75%;
+    width: 75%;
+    opacity: 0;
+    margin-left: 12.5%;
+
     animation: logo;
     animation-duration: 12s;
     animation-delay: 10s;
@@ -88,20 +93,28 @@ body {
 @keyframes logo {
     0%    { 
         opacity: 0.8;
-        font-size: 4em;
+        height: 75%;
+        width: 75%;
+        margin-left: 12.5%;
     }
     5%    { 
         opacity: 1;
-        font-size: 4em;
+        height: 75%;
+        width: 75%;
+        margin-left: 12.5%;
     }
 
     50%  { 
         opacity: 1; 
-        font-size: 2em;
+        height: 37.5%;
+        width: 37.5%;
+        margin-left: 31.25%;
     }
 
     100%  { 
         opacity: 0; 
-        font-size: 0em;
+        height: 0%;
+        width: 0%;
+        margin-left: 50%;
     }
 }
