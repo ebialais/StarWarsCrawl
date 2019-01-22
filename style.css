@@ -16,9 +16,9 @@ body {
     font-size: 1.5em;
     z-index: 2;
 
-    animation: Intro;
+    /* animation: Intro;
     animation-duration: 10s;
-    animation-timing-function: linear;
+    animation-timing-function: linear; */
 }
 
 .logo { 
@@ -37,34 +37,38 @@ img{
     opacity: 0;
     margin-left: 12.5%;
 
-    animation: logo;
+    /* animation: logo;
     animation-duration: 12s;
     animation-delay: 10s;
-    animation-timing-function: linear;
+    animation-timing-function: linear; */
 }
 
 #Container {
     display: flex;
     justify-content: center;
     height: 800px;
-    perspective: 400px;
-    font-family: 'Heebo', sans-serif;
-    font-size: 500%;
-    font-weight: 600;
-    letter-spacing: 6px;
-    line-height: 150%;
-    text-align: justify;
+    width: 100%;
+    perspective: 300px;
+
+
 }
 
 .contenu {
     position: relative;
     top: -100px;
     transform-origin: 50% 100%;
+    font-size: 400%;
+    font-weight: 600;
+    font-family: 'Heebo', sans-serif;
+    letter-spacing: 6px;
+    line-height: 150%;
+    text-align: justify;
+    width: 100%;
 
     color: #F2E812; 
     opacity: 0;
 
-    animation: starWars 50s linear 22s;
+    animation: starWars 50s linear 2s;
     
 }
 
@@ -73,13 +77,13 @@ img{
     0%   { 
         opacity: 1; 
         top: 0;
-        transform: rotateX(20deg) translateZ(0); 
+        transform: rotateX(20deg) translateZ(0px); 
     }
 
     100%  { 
         opacity: 1; 
         top: -6000px;
-        transform: rotateX(25deg) translateZ(-2500px); 
+        transform: rotateX(20deg) translateZ(-2500px); 
     }
 }
 
