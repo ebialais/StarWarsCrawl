@@ -1,11 +1,14 @@
 # StarWarsCrawl
 
-Creation d'une animation Star Wars Crawl
+After 15 days of training, we had to manage our first css animation and reproduce the famous Star Wars crawl.
 
-objectf: 
-- maitriser les animations
-- maitriser les trasformations
-- ajout fichier audio au fichier .html (et comprendre pourquoi ca fonctionne sur firefox et pas sur chrome)
+
+objectives: 
+- to master css animations and transformations
+- add the Star Wars theme audio files
+
+https://github.com/ebialais/StarWarsCrawl
+
 
 
 
